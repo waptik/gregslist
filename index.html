@@ -17,7 +17,7 @@
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-
+	<!-- navbar -->
 	<nav class="navbar">
 		<span>Greg's List</span>
 		<ul>
@@ -25,39 +25,50 @@
 			<li><a href="#">Account</a></li>
 		</ul>
 	</nav>
-
+	
+	<!-- main contents -->
 	<main>
-		<form action="#" method="get" class="sform">
-			<label for="search">Search Jobs</label>
-			<input type="search" name="search" id="search" placeholder="Search software jobs">
-			<button type="submit"><img src="images/magnifying-glass.png" alt="Search img" class="simg"></button>
-		</form>
-
+		<!-- search form -->
+		<section class="search">
+			<form action="#" method="get" class="sform">
+				<label for="search">Search Jobs</label>
+				<input type="search" name="search" id="search" placeholder="Search software jobs">
+				<input type="image" src="images/magnifying-glass.png" alt="Search button" class="simg">
+			</form>
+		</section>
+		
+			<!-- pagination -->
 		<div class="paginate">
 			<div class="inner prev">< prev</div>
 			<div class="inner cur">1 to 100 of 179</div>
 			<div class="inner next">next ></div>
 		</div>
-
+			
+			<!-- display posts -->
 		<div class="posts">
-			<div>
+
+			<div class="post">
 				<span>June 22</span>
-				<span><a href="#">Technical Project Manager</a></span>
+				<a href="#">Technical Project Manager</a>
 				<span>Midtown East</span>
 			</div>
-			<div>
+
+			<div class="post">
 				<span>June 21</span>
-				<span><a href="#">Frontend Developer</a></span>
+				<a href="#">Frontend Developer</a>
 				<span>SoHo</span>
 			</div>
-			<div>
+
+			<div class="post">
 				<span>June 20</span>
-				<span><a href="#">Senior Python Developer / Cofounder</a></span>
+				<a href="#">Senior Python Developer / Cofounder</a>
 				<span>Flatiron</span>
 			</div>
 		</div>
+
 	</main>
 
+		<!-- display source code -->
 	<footer><a href="https://github.com/waptik/gregslist/" target="_blank">Source Code</a></footer>
 </body>
 </html>
