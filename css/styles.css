@@ -39,6 +39,7 @@ nav ul {
 	display: inline-block;
 	float: right;
 	list-style: none;
+	padding-right: 10px;
 }
 
 nav li {
