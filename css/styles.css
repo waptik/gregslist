@@ -1,0 +1,113 @@
+body {
+  font-family: "Roboto", helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+body * {
+
+  box-sizing: border-box;
+}
+
+nav {
+	background: rgb(229, 229, 229);
+	position: fixed;
+	height: 50px;
+	width: 100%;
+	padding-top: 0;
+}
+
+.navbar {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+nav span {
+	margin: 15px 15px 15px;
+	font-size: 
+	display: block;
+	float: left;
+	clear: right;
+}
+
+nav ul {
+	display: inline-block;
+	float: right;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	padding-right: 0;
+	padding-left: 10px;
+}
+
+main {
+	padding-top: 90px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 100px;
+}
+
+.sform {
+	//margin-top: 10px;
+}
+
+.sform label {
+	margin-top: 10px;
+  font-size: 14px;
+}
+
+.sform input {
+	display: inline-block;
+	width: 30%;
+	margin-top: 20px;
+	height: auto;
+
+}
+
+button {
+	color: rgb(255, 255, 255);
+}
+
+.sform .simg {
+	border-radius: 0;
+	height: 20px;
+}
+
+.paginate {
+	margin-top: 50px;
+	font-size: 15px;
+	display: block;
+  	border-radius: 3px;
+}
+
+div.inner {
+	display: inline-block;
+  	padding: 10px;
+  	width: auto;
+  	border: 1px solid rgb(232, 232, 232);
+}
+.paginate {
+}
+
+
+.paginate div {
+
+	display: inline-block;
+	text-align: center;
+}
+
+div.posts {
+	margin-top: 20px;
+	color: rgb(221, 221, 221);
+}
+
+.posts span {
+	display: inline-block;
+	padding-right: 10px;
+}
+
+span a {
+	color: rgb(0, 0, 255);
+}

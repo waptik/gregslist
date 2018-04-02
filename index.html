@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Layout Challenge: Greg's List</title>
+  <meta charset="utf-8" name="description" content="Layout exercise on `position` property for Thinkful's front end web development course">
+
+  <!-- fonts  -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  <!-- reset -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+
+  <!-- styles -->
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+
+  <!-- gregslist.css -->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+
+	<nav class="navbar">
+		<span>Greg's List</span>
+		<ul>
+			<li><a href="#">Post </a></li>
+			<li><a href="#">Account</a></li>
+		</ul>
+	</nav>
+
+	<main>
+		<form action="#" method="get" class="sform">
+			<label for="search">Search Jobs</label>
+			<input type="search" name="search" id="search" placeholder="Search software jobs">
+			<button type="submit"><img src="images/magnifying-glass.png" alt="Search img" class="simg"></button>
+		</form>
+
+		<div class="paginate">
+			<div class="inner prev">< prev</div>
+			<div class="inner cur">1 to 100 of 179</div>
+			<div class="inner next">next ></div>
+		</div>
+
+		<div class="posts">
+			<div>
+				<span>June 22</span>
+				<span><a href="#">Technical Project Manager</a></span>
+				<span>Midtown East</span>
+			</div>
+			<div>
+				<span>June 21</span>
+				<span><a href="#">Frontend Developer</a></span>
+				<span>SoHo</span>
+			</div>
+			<div>
+				<span>June 20</span>
+				<span><a href="#">Senior Python Developer / Cofounder</a></span>
+				<span>Flatiron</span>
+			</div>
+		</div>
+	</main>
+</body>
+</html>
